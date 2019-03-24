@@ -1,0 +1,46 @@
+#whole
+{
+  padding: 380px;
+  font-size: 20px;
+  width: 800px;
+  margin-left: 50px;
+}
+#button-op
+{
+  margin-left: 680px;
+
+  margin-top: -21px;
+  font-size: 16px;
+}
+#Operator
+{
+  float: right;
+  margin: -20px;
+  margin-right: 125px;
+  margin-top: 8px;
+}
+#answer
+{
+  margin-left: -125px;
+  margin-top: 20px;
+  font-size: 300px;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+#color
+{
+  background-color: rgb(255, 255, 255);
+  width: 1800px;
+}
+#op
+{
+  margin-top: -350px;
+  color: blue;
+}
+
+
+
+
+
+
+

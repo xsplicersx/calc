@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="icon" href="calc.png">
+    <!--<link rel="stylesheet" href="percent.js"> -->
+    <link rel="stylesheet" href="percent.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calculator.js"></script>
+    <meta charset="utf-8">
+    <title>Simplecalc</title>
+    <script>
+
+
+
+
+
+
+        function calc1(form) {
+        a = form.a.value/100;
+        b = a*form.b.value;
+        form.total1.value = b;
+        }
+        function calc2(form) {
+        a = form.c.value;
+        b = form.d.value;
+        c = a/b;
+        d = c*100;
+        form.total2.value = d;
+        }
+
+
+
+
+
+
+    </script>
+  </head>
+  <body>
+
+<div id="color">
+
+<div id="whole">
+
+    <form name="form1">
+
+      <select id="Operator">
+
+        <option value="add">add</option>
+
+        <option value="minus">minus</option>
+
+        <option value="divide">divide</option>
+
+        <option value="multiply">multiply</option>
+
+        <option value="power2">power2</option>
+
+        <option value="power3">poweqr3</option>
+
+        <option value="power4">power4</option>
+
+        <option value="power5">power5</option>
+
+        <option value="power6">power6</option>
+
+        <option value="power7">power7</option>
+
+        <option value="power8">power8</option>
+
+        <option value="power9">power9</option>
+
+        <option value="power10">power10</option>
+
+        <option value="pie*">pie*</option>
+
+        <option value="pie+">pie+</option>
+
+        <option value="pie-">pie-</option>
+
+        <option value="pie/">pie/</option>
+
+        <option value="root">root</option>
+
+      </select>
+      <div id="op">
+
+        Number 1: <input type="text" id="number1">
+        Number 2: <input type="text" id="number2">
+        Operator:
+
+      </div>
+
+    <div id="button-op">
+
+    <button type="button" onclick="calc()">Get the answer here</button>
+    </div>
+
+
+
+
+
+    <div id="per-style">
+       <center>
+    <form name="form1">
+        <table border="1" cellpadding="4" cellspacing="1">
+            <tr>
+                <td align="center">What is
+                    <input type="text" name="a" size="5">
+                        % of
+                        <input type="text" name="b" size="5">?</td>
+                        <td align="center">Answer:
+                            <input type="text" name="total1" size="5" maxlength="40"></td>
+                            <td align="center">
+                                <input type="button" value="Calculate" onClick="calc1(this.form)"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="3">Or...</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="text" name="c" size="5">
+                                        is what percent of
+                                        <input type="text" name="d" size="5">?</td>
+                                        <td align="center">Answer:
+                                            <input type="text" name="total2" size="5">
+                                                %</td>
+                                            <td align="center">
+                                                <input type="button" value="Calculate" onClick="calc2(this.form)"></td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </center>
+    </div>
+
+
+
+
+    </form>
+    <div id="answer"></div>
+
+    </div>
+  </div>
+
+  </body>
+</html>
